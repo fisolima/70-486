@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{A2AE608F-5B63-4BEE-BD84-24ED977D1523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{2CD7ED6F-26E9-4797-8AA0-7CBF60EC942B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC1", "MVC1\MVC1.csproj", "{CC3B1413-1E79-47FF-ACE5-D54ADEDE96E8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2AE608F-5B63-4BEE-BD84-24ED977D1523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AE608F-5B63-4BEE-BD84-24ED977D1523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AE608F-5B63-4BEE-BD84-24ED977D1523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AE608F-5B63-4BEE-BD84-24ED977D1523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD7ED6F-26E9-4797-8AA0-7CBF60EC942B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD7ED6F-26E9-4797-8AA0-7CBF60EC942B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD7ED6F-26E9-4797-8AA0-7CBF60EC942B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD7ED6F-26E9-4797-8AA0-7CBF60EC942B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3B1413-1E79-47FF-ACE5-D54ADEDE96E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3B1413-1E79-47FF-ACE5-D54ADEDE96E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3B1413-1E79-47FF-ACE5-D54ADEDE96E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3B1413-1E79-47FF-ACE5-D54ADEDE96E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
